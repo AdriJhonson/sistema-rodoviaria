@@ -82,7 +82,7 @@
 		<?php 
 			require_once '../includes/mensagens.php';
 
-			if(count($rotas) > 0){
+			if($rotas != null){
 
 				foreach($rotas as $rota){ 
 
